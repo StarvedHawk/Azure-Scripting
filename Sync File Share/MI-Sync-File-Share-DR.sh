@@ -13,8 +13,8 @@ SAS_VALIDITY_DURATION=300 # 5 minutes
 AZCOPY_PATH="/path/to/azcopy"
 
 # Construct Source and Destination URLs
-SOURCE_URL="https://${SOURCE_STORAGE_ACCOUNT_NAME}.file.core.windows.net/${SOURCE_FILE_SHARE_NAME}"
-DESTINATION_URL="https://${DESTINATION_STORAGE_ACCOUNT_NAME}.file.core.windows.net/${DESTINATION_FILE_SHARE_NAME}"
+SOURCE_URL="https://${SOURCE_STORAGE_ACCOUNT_NAME}.file.core.windows.net/${SOURCE_FILE_SHARE_NAME}/"
+DESTINATION_URL="https://${DESTINATION_STORAGE_ACCOUNT_NAME}.file.core.windows.net/${DESTINATION_FILE_SHARE_NAME}/"
 
 echo "Source URL: $SOURCE_URL"
 echo "Destination URL: $DESTINATION_URL"

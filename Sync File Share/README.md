@@ -32,6 +32,7 @@ ubuntu Linux Setup Steps :
    24  sudo apt-get update
    25  sudo apt-get install azcopy
    37  az login
-   38  az login -tenant
-   45  chmod +x Sync-File-Share-DR.sh
-   46  ./Sync-File-Share-DR.sh
+   38  az login -tenan
+   71  chmod +x MI-Sync-File-Share-DR.sh
+   77  export AZCOPY_AUTO_LOGIN_TYPE=MSI
+   78  ./MI-Sync-File-Share-DR.sh
