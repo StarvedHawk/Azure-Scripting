@@ -50,7 +50,7 @@ echo "Destination URL: $DESTINATION_URL"
 
 # Perform File Sync using AzCopy
 echo "Starting data replication..."
-$AZCOPY_PATH sync "$SOURCE_URL" "$DESTINATION_URL" --recursive=true
+azcopy sync "$SOURCE_URL" "$DESTINATION_URL" --recursive=true
 echo "Data replication completed."
 
 # Cleanup SAS tokens (by unsetting the variables)
