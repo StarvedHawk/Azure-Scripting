@@ -2,6 +2,11 @@
 Scripts that have been created for niche use cases azure
 
 
+Managed Identity :  
+
+Access Required - Storage File Data Privileged Contributor 
+
+
 
 
 ubuntu Linux Setup Steps : 
