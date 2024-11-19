@@ -31,3 +31,7 @@ ubuntu Linux Setup Steps :
    23  rm packages-microsoft-prod.deb
    24  sudo apt-get update
    25  sudo apt-get install azcopy
+   37  az login
+   38  az login -tenant
+   45  chmod +x Sync-File-Share-DR.sh
+   46  ./Sync-File-Share-DR.sh
